@@ -1,0 +1,13 @@
+{
+	"name": "excel-hello-world",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"http-server": "^14.1.1",
+		"office-addin-dev-certs": "^1.9.3"
+	},
+	"scripts": {
+		"dev": "http-server -S -C localhost.crt -K localhost.key --cors . -p 3000 -c-1"
+	}
+}
